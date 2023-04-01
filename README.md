@@ -30,13 +30,13 @@ It is my sincerest hope that this project will be a catalyst for change, a rally
 To use ChatGPT API Free, simply send a POST request to the following endpoint:
 
 ```
-https://chatgpt-api.shn.hk/v1/
+https://chatgptapifree-production.up.railway.app/v1/
 ```
 
 For instance, to generate a response to the prompt "Hello, how are you?" using the `gpt-3.5-turbo` model, send the following `curl` command:
 
 ```sh
-curl https://chatgpt-api.shn.hk/v1/ \
+curl https://chatgptapifree-production.up.railway.app/v1/ \
   -H 'Content-Type: application/json' \
   -d '{
   "model": "gpt-3.5-turbo",
